@@ -6,7 +6,7 @@ import Card from 'components/Card';
 import { Badge } from 'react-bootstrap';
 import TarotImage from 'components/UI/TarotImage';
 import { formatAmount, formatPercentage, formatPercentageShort, formatToDecimals, formatUSD, formatUSDShort } from 'utils/format';
-import { ReactComponent as TarotLogoIcon } from 'assets/images/icons/tarot-logo.svg';
+import { ReactComponent as TarotLogoIcon } from 'assets/images/icons/tarot-logo.png';
 import { ReactComponent as TinSpiritLogoIcon } from 'assets/images/icons/tinSPIRIT.svg';
 import { DEX, DexInfo } from 'config/web3/dexs';
 import Tooltip from 'components/Tooltip';

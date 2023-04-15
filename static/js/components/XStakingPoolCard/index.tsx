@@ -1,6 +1,6 @@
 
 import clsx from 'clsx';
-import { ReactComponent as XTAROT } from 'assets/images/icons/xtarot-logo.svg';
+import { ReactComponent as XTAROT } from 'assets/images/icons/xtarot-logo.png';
 import { Address } from 'types/interfaces';
 import InteractionButton, { ButtonState } from 'components/InteractionButton';
 import { formatAmount, formatPercentage, formatPercentageShort, formatUSD, formatUSDShort } from 'utils/format';

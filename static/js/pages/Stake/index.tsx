@@ -1,6 +1,6 @@
 
 import clsx from 'clsx';
-import { ReactComponent as TAROT } from 'assets/images/icons/tarot-logo.svg';
+import { ReactComponent as TAROT } from 'assets/images/icons/tarot-logo.png';
 import { ReactComponent as XTAROT } from 'assets/images/icons/xtarot-logo.svg';
 import { ReactComponent as XTAROTRays } from 'assets/images/icons/xtarot-rays.svg';
 import { ReactComponent as XTAROTFace } from 'assets/images/icons/xtarot-face.svg';
