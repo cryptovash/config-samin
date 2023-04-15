@@ -1413,7 +1413,7 @@
         ],
         He = Object(De.a)({}, Ne.FANTOM, [
           "https://dev.tarot.to/subgraphs/name/tarot-finance/tarot",
-          "https://api.thegraph.com/subgraphs/name/tarot-finance/tarot",
+          "https://api.thegraph.com/subgraphs/name/cryptovash/stacking-salmon-subgraph",
         ]),
         We = Object(De.a)({}, Ne.FANTOM, [
           "https://api.thegraph.com/subgraphs/name/tarot-finance/tarot-requiem",
@@ -35733,14 +35733,7 @@
         Of = new Tf.a({
           supportedChainIds: [
             Ne.FANTOM,
-            Ne.OPTIMISM,
-            Ne.ARBITRUM,
-            Ne.BSC,
-            Ne.ETHEREUM_MAIN_NET,
-            Ne.KAVA,
-            Ne.CANTO,
-            Ne.AVAX,
-            Ne.POLYGON,
+            Ne.FANTOM_TESTNET,
           ],
         }),
         Sf = new kf.a({
@@ -35756,14 +35749,7 @@
           chainId: Ne.FANTOM,
           supportedChainIds: [
             Ne.FANTOM,
-            Ne.OPTIMISM,
-            Ne.ARBITRUM,
-            Ne.BSC,
-            Ne.ETHEREUM_MAIN_NET,
-            Ne.KAVA,
-            Ne.CANTO,
-            Ne.AVAX,
-            Ne.POLYGON,
+            Ne.FANTOM_TESTNET,
           ],
           bridge: "https://bridge.walletconnect.org",
           qrcode: !0,
