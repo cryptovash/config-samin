@@ -17189,7 +17189,7 @@
             farmingPoolAddress0: "0x0000000000000000000000000000000000000000",
             farmingPoolAddress1: "0x0000000000000000000000000000000000000000",
             poolDisabled: !1,
-            tarotFactoryAddress: "0xa5dBcA147CafC78789c3aA64E433e6981bAA2057",
+            tarotFactoryAddress: "0x36df0a76a124d8b2205fa11766ec2eff8ce38a35",
             tarotRouterAddress: "0x6108feaa628155b073150f408d0b390ec3121834",
           },
           "0x60a6a2b68cfdc3861d99c6913558b54bf8f1eaae": {
@@ -17224,7 +17224,7 @@
             farmingPoolAddress0: "0x0000000000000000000000000000000000000000",
             farmingPoolAddress1: "0x0000000000000000000000000000000000000000",
             poolDisabled: !1,
-            tarotFactoryAddress: "0xa5dBcA147CafC78789c3aA64E433e6981bAA2057",
+            tarotFactoryAddress: "0x36df0a76a124d8b2205fa11766ec2eff8ce38a35",
             tarotRouterAddress: "0x6108feaa628155b073150f408d0b390ec3121834",
           },
           "0x434043d76a31e7093be5f602e862128e3a88e3da": {
@@ -17259,7 +17259,7 @@
             farmingPoolAddress0: "0x0000000000000000000000000000000000000000",
             farmingPoolAddress1: "0x0000000000000000000000000000000000000000",
             poolDisabled: !1,
-            tarotFactoryAddress: "0xa5dBcA147CafC78789c3aA64E433e6981bAA2057",
+            tarotFactoryAddress: "0x36df0a76a124d8b2205fa11766ec2eff8ce38a35",
             tarotRouterAddress: "0x6108feaa628155b073150f408d0b390ec3121834",
           },
           "0x25d7f505a58d65c07d23cef2b85683dc96fa7443": {
@@ -17294,7 +17294,7 @@
             farmingPoolAddress0: "0x0000000000000000000000000000000000000000",
             farmingPoolAddress1: "0x0000000000000000000000000000000000000000",
             poolDisabled: !1,
-            tarotFactoryAddress: "0xa5dBcA147CafC78789c3aA64E433e6981bAA2057",
+            tarotFactoryAddress: "0x36df0a76a124d8b2205fa11766ec2eff8ce38a35",
             tarotRouterAddress: "0x6108feaa628155b073150f408d0b390ec3121834",
           },
           "0xb26f30394493dd4242b3b25d4cac1b357958cdbb": {
@@ -17329,7 +17329,7 @@
             farmingPoolAddress0: "0x0000000000000000000000000000000000000000",
             farmingPoolAddress1: "0x0000000000000000000000000000000000000000",
             poolDisabled: !1,
-            tarotFactoryAddress: "0xa5dBcA147CafC78789c3aA64E433e6981bAA2057",
+            tarotFactoryAddress: "0x36df0a76a124d8b2205fa11766ec2eff8ce38a35",
             tarotRouterAddress: "0x6108feaa628155b073150f408d0b390ec3121834",
           },
           "0x777712c225f33f32747d2e5555802c438d496fdb": {
@@ -17364,7 +17364,7 @@
             farmingPoolAddress0: "0x0000000000000000000000000000000000000000",
             farmingPoolAddress1: "0x0000000000000000000000000000000000000000",
             poolDisabled: !1,
-            tarotFactoryAddress: "0xa5dBcA147CafC78789c3aA64E433e6981bAA2057",
+            tarotFactoryAddress: "0x36df0a76a124d8b2205fa11766ec2eff8ce38a35",
             tarotRouterAddress: "0x6108feaa628155b073150f408d0b390ec3121834",
           },
           "0xf06de0368e21ef8c3e3d854791bae71d322fe507": {
@@ -17399,7 +17399,7 @@
             farmingPoolAddress0: "0x0000000000000000000000000000000000000000",
             farmingPoolAddress1: "0x0000000000000000000000000000000000000000",
             poolDisabled: !1,
-            tarotFactoryAddress: "0xa5dBcA147CafC78789c3aA64E433e6981bAA2057",
+            tarotFactoryAddress: "0x36df0a76a124d8b2205fa11766ec2eff8ce38a35",
             tarotRouterAddress: "0x6108feaa628155b073150f408d0b390ec3121834",
           },
           "0x52a9e79a70b90cb51a704c575d19114ebf7f3a6f": {
@@ -17434,7 +17434,7 @@
             farmingPoolAddress0: "0x0000000000000000000000000000000000000000",
             farmingPoolAddress1: "0x0000000000000000000000000000000000000000",
             poolDisabled: !1,
-            tarotFactoryAddress: "0xa5dBcA147CafC78789c3aA64E433e6981bAA2057",
+            tarotFactoryAddress: "0x36df0a76a124d8b2205fa11766ec2eff8ce38a35",
             tarotRouterAddress: "0x6108feaa628155b073150f408d0b390ec3121834",
           },
           "0xe11ff3b05a7d18f2a1dc17849860f74e55683703": {
@@ -17469,7 +17469,7 @@
             farmingPoolAddress0: "0x0000000000000000000000000000000000000000",
             farmingPoolAddress1: "0x0000000000000000000000000000000000000000",
             poolDisabled: !1,
-            tarotFactoryAddress: "0xa5dBcA147CafC78789c3aA64E433e6981bAA2057",
+            tarotFactoryAddress: "0x36df0a76a124d8b2205fa11766ec2eff8ce38a35",
             tarotRouterAddress: "0x6108feaa628155b073150f408d0b390ec3121834",
           },
           "0xa55249f83c0ff4abd380b990e69f748b3ec23b9e": {
@@ -17504,7 +17504,7 @@
             farmingPoolAddress0: "0x0000000000000000000000000000000000000000",
             farmingPoolAddress1: "0x0000000000000000000000000000000000000000",
             poolDisabled: !1,
-            tarotFactoryAddress: "0xa5dBcA147CafC78789c3aA64E433e6981bAA2057",
+            tarotFactoryAddress: "0x36df0a76a124d8b2205fa11766ec2eff8ce38a35",
             tarotRouterAddress: "0x6108feaa628155b073150f408d0b390ec3121834",
           },
           "0xbce9b15019368ea45adbb1c58c8670be8cb630b5": {
@@ -17539,7 +17539,7 @@
             farmingPoolAddress0: "0x0000000000000000000000000000000000000000",
             farmingPoolAddress1: "0x0000000000000000000000000000000000000000",
             poolDisabled: !1,
-            tarotFactoryAddress: "0xa5dBcA147CafC78789c3aA64E433e6981bAA2057",
+            tarotFactoryAddress: "0x36df0a76a124d8b2205fa11766ec2eff8ce38a35",
             tarotRouterAddress: "0x6108feaa628155b073150f408d0b390ec3121834",
           },
           "0xe5a3e811ecaea9e70566fd461cfa48d32a52052d": {
@@ -17574,7 +17574,7 @@
             farmingPoolAddress0: "0x0000000000000000000000000000000000000000",
             farmingPoolAddress1: "0x0000000000000000000000000000000000000000",
             poolDisabled: !1,
-            tarotFactoryAddress: "0xa5dBcA147CafC78789c3aA64E433e6981bAA2057",
+            tarotFactoryAddress: "0x36df0a76a124d8b2205fa11766ec2eff8ce38a35",
             tarotRouterAddress: "0x6108feaa628155b073150f408d0b390ec3121834",
           },
         },
@@ -18053,7 +18053,7 @@
             kinkMultiplier: 5,
             kinkBorrowRateMax: 100,
             tarotPriceOracleAddress:
-              "0xa5dBcA147CafC78789c3aA64E433e6981bAA2057",
+              "0x36df0a76a124d8b2205fa11766ec2eff8ce38a35",
             label: "Classic",
           },
           "250-0xf6d943c8904195d0f69ba03d97c0baf5bbdcd01b": {
@@ -18061,7 +18061,7 @@
             kinkMultiplier: 3,
             kinkBorrowRateMax: 888,
             tarotPriceOracleAddress:
-              "0xa5dBcA147CafC78789c3aA64E433e6981bAA2057",
+              "0x36df0a76a124d8b2205fa11766ec2eff8ce38a35",
             label: "Requiem",
           },
           "250-0xbf76f858b42bb9b196a87e43235c2f0058cf7322": {
@@ -18133,7 +18133,7 @@
             kinkMultiplier: 3,
             kinkBorrowRateMax: 888,
             tarotPriceOracleAddress:
-              "0xa5dBcA147CafC78789c3aA64E433e6981bAA2057",
+              "0x36df0a76a124d8b2205fa11766ec2eff8ce38a35",
             label: "Saurian",
           },
           "42161-0xc20099a3f0728634c1136489074508be7b406d3a": {
@@ -18141,7 +18141,7 @@
             kinkMultiplier: 6,
             kinkBorrowRateMax: 28,
             tarotPriceOracleAddress:
-              "0xa5dBcA147CafC78789c3aA64E433e6981bAA2057",
+              "0x36df0a76a124d8b2205fa11766ec2eff8ce38a35",
             label: "Ulysses (Deactivated)",
           },
           "42161-0x4b6dae049a35196a773028b2e835cccce9dd4723": {
@@ -18149,7 +18149,7 @@
             kinkMultiplier: 6,
             kinkBorrowRateMax: 28,
             tarotPriceOracleAddress:
-              "0xa5dBcA147CafC78789c3aA64E433e6981bAA2057",
+              "0x36df0a76a124d8b2205fa11766ec2eff8ce38a35",
             label: "Ulysses",
           },
           "42161-0x8cec723d81273b9ab1fc70441382701dfa2fe526": {
@@ -18197,7 +18197,7 @@
             kinkMultiplier: 3,
             kinkBorrowRateMax: 888,
             tarotPriceOracleAddress:
-              "0xa5dBcA147CafC78789c3aA64E433e6981bAA2057",
+              "0x36df0a76a124d8b2205fa11766ec2eff8ce38a35",
             label: "Avignon",
           },
           "2222-0x54950cae3d8513ea041066f31697903de5909f57": {
@@ -18205,7 +18205,7 @@
             kinkMultiplier: 6,
             kinkBorrowRateMax: 28,
             tarotPriceOracleAddress:
-              "0xa5dBcA147CafC78789c3aA64E433e6981bAA2057",
+              "0x36df0a76a124d8b2205fa11766ec2eff8ce38a35",
             label: "Orleans",
           },
           "7700-0xb6193df61351736e5190bf1deb2e4f0769bd1bf2": {
@@ -18224,7 +18224,7 @@
               "0xd4a6a05081fd270dc111332845a778a49fe01741",
             label: "Cantata",
           },
-          "43114-0xa5dBcA147CafC78789c3aA64E433e6981bAA2057": {
+          "43114-0x36df0a76a124d8b2205fa11766ec2eff8ce38a35": {
             borrowFeeBps: 1,
             kinkMultiplier: 3,
             kinkBorrowRateMax: 888,
@@ -18232,7 +18232,7 @@
               "0x5f90e27c07b96641a52ff2335b15158e74e46401",
             label: "Cascade",
           },
-          "137-0xa5dBcA147CafC78789c3aA64E433e6981bAA2057": {
+          "137-0x36df0a76a124d8b2205fa11766ec2eff8ce38a35": {
             borrowFeeBps: 1,
             kinkMultiplier: 3,
             kinkBorrowRateMax: 888,
