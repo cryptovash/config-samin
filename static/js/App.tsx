@@ -100,7 +100,7 @@ const App = (): JSX.Element | null => {
                   <div className='text-center col-span-4 text-textPrimary text-lg md:text-xl lg:text-2xl'>Decentralized Lending</div>
                 </div>
                 <div className={clsx('grid grid-cols-4 portrait:mt-4 justify-items-center')}>
-                  <div className='text-center p-4 col-span-4 max-w-xs text-textPrimary text-base'>By using Tarot, I accept the&nbsp;
+                  <div className='text-center p-4 col-span-4 max-w-xs text-textPrimary text-base'>By using Stacking Salmon, I accept the&nbsp;
                     <span
                       className='cursor-pointer text-tarotJade-50 hover:underline'
                       onClick={() => {
@@ -108,7 +108,7 @@ const App = (): JSX.Element | null => {
                       }}>Terms &amp; Conditions
                     </span>.
                   </div>
-                  <div className='col-span-4 portrait:mt-2'><TarotJadeContainedButton onClick={handlePositiveConfirmation}>Accept &amp; Continue</TarotJadeContainedButton></div>
+                  <div className='col-span-4 portrait:mt-2'><TarotJadeContainedButton onClick={handlePositiveConfirmation}>Accept &amp; Stack</TarotJadeContainedButton></div>
                   <TermsModal
                     show={showTermsModal}
                     toggleShow={toggleTermsModal} />

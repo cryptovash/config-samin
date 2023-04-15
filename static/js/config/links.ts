@@ -1,10 +1,10 @@
 
 const TAROT_WEBSITE_LINK = 'https://www.tarot.to';
-const TAROT_TWITTER_LINK = 'https://twitter.com/TarotFinance';
+const TAROT_TWITTER_LINK = 'https://twitter.com/StackingSalmon';
 const TAROT_DISCORD_LINK = 'https://discord.gg/6ByFHBjqE8';
 const TAROT_MEDIUM_LINK = 'https://tarotfinance.medium.com';
-const TAROT_GIT_HUB_LINK = 'https://github.com/tarot-finance';
-const TAROT_GITBOOK_LINK = 'https://docs.tarot.to';
+const TAROT_GIT_HUB_LINK = 'https://github.com/cryptovash';
+const TAROT_GITBOOK_LINK = 'https://stacking-salmon.gitbook.io/docs/';
 
 export {
   TAROT_TWITTER_LINK,

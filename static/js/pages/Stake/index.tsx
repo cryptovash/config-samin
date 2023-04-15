@@ -103,7 +103,7 @@ const StakeContent = (): JSX.Element | null => {
                     'h-24'
                   )} />
               </div>
-              <div className='text-xl sm:text-2xl text-textPrimary font-semibold'>xTAROT</div>
+              <div className='text-xl sm:text-2xl text-textPrimary font-semibold'>xSLMN</div>
               <div className='!mb-8 text-lg text-textSecondary'>Staking &amp; Governance</div>
               <div className='!mb-8 text-sm sm:text-base text-center font-semibold'>The gateway for on-chain governance and fee distribution of the Tarot Protocol</div>
               <div

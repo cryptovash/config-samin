@@ -201,7 +201,7 @@ const XStakingPoolCard = ({
                 text={
                   <div className='flex flex-col text-sm space-y-1'>
                     <div className='flex justify-between'>
-                      <div className='text-textSecondary'>xTAROT APR:</div>
+                      <div className='text-textSecondary'>xSLMN APR:</div>
                       <div>{formatPercentage(xTAROTAPR)}</div>
                     </div>
                     <div className='flex justify-between'>
@@ -339,7 +339,7 @@ const XStakingPoolCard = ({
                   text={
                     <div className='flex flex-col text-sm space-y-1'>
                       <div className='flex justify-between'>
-                        <div className='text-textSecondary'>xTAROT APR:</div>
+                        <div className='text-textSecondary'>xSLMN APR:</div>
                         <div>{formatPercentage(xTAROTAPR)}</div>
                       </div>
                       <div className='flex justify-between'>
