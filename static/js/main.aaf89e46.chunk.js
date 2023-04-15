@@ -55199,17 +55199,17 @@
                     ? void 0
                     : s.isExact,
               },
-              {
-                title: "tinBERA",
-                link: Is.TINSPIRIT,
-                enabled: !k || k === Ne.FANTOM,
-                matched:
-                  null ===
-                    (d = Object(Mf.i)({ path: Is.TINSPIRIT, strict: !0 })) ||
-                  void 0 === d
-                    ? void 0
-                    : d.isExact,
-              },
+              // {
+              //   title: "tinBERA",
+              //   link: Is.TINSPIRIT,
+              //   enabled: !k || k === Ne.FANTOM,
+              //   matched:
+              //     null ===
+              //       (d = Object(Mf.i)({ path: Is.TINSPIRIT, strict: !0 })) ||
+              //     void 0 === d
+              //       ? void 0
+              //       : d.isExact,
+              // },
             ],
             N = [
               {
