@@ -1,0 +1,27 @@
+
+import { CHAIN_IDS } from 'config/web3/chains';
+
+const TAROT_ADDRESSES: {
+  [chainId: number]: string;
+} = {
+  [CHAIN_IDS.FANTOM]: '0xc5e2b037d30a390e62180970b3aa4e91868764cd',
+  [CHAIN_IDS.OPTIMISM]: '0x375488f097176507e39b9653b88fdc52cde736bf',
+  [CHAIN_IDS.BSC]: '0xa8cd6e4bf45724d3ac27f9e31e47ba4e399a7b52',
+  [CHAIN_IDS.ETHEREUM_MAIN_NET]: '0x837d904a3799c0769079be9ecbaddf1abd4ccd6e',
+  [CHAIN_IDS.ARBITRUM]: '0x6688b00f0c23a4a546beaae51a7c90c439895d48',
+  [CHAIN_IDS.KAVA]: '0x165dbb08de0476271714952c3c1f068693bd60d7',
+  [CHAIN_IDS.CANTO]: '0x2bf9b864cdc97b08b6d79ad4663e71b8ab65c45c'
+  /* [CHAIN_IDS.AVAX]: '0x7f8d31a49212c62a11b6718aa0b612e129256553',
+  [CHAIN_IDS.POLYGON]: '0xd23ed8ca350ce2631f7ecdc5e6bf80d0a1debb7b'*/
+};
+
+const XTAROT_ADDRESSES: {
+  [chainId: number]: string;
+} = {
+  [CHAIN_IDS.FANTOM]: '0x74d1d2a851e339b8cb953716445be7e8abdf92f4'
+};
+
+export {
+  TAROT_ADDRESSES,
+  XTAROT_ADDRESSES
+};
