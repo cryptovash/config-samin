@@ -53833,11 +53833,11 @@
         WA = function () {
           return Object(E.jsx)(HA, {});
         },
-        YA = "https://twitter.com/TarotFinance",
-        ZA = "https://discord.gg/6ByFHBjqE8",
-        XA = "https://tarotfinance.medium.com",
-        GA = "https://github.com/tarot-finance",
-        KA = "https://docs.tarot.to";
+        YA = "https://twitter.com/StackingSalmon",
+        ZA = "https://discord.gg/",
+        XA = "https://medium.com",
+        GA = "https://github.com/cryptovash",
+        KA = "https://stacking-salmon.gitbook.io/docs/";
       function QA() {
         return (QA =
           Object.assign ||
@@ -56839,7 +56839,7 @@
                                     className:
                                       "text-center p-4 col-span-4 max-w-xs text-textPrimary text-base",
                                     children: [
-                                      "By using Tarot, I accept the\xa0",
+                                      "By using Stacking Salmon, I accept the\xa0",
                                       Object(E.jsx)("span", {
                                         className:
                                           "cursor-pointer text-tarotJade-50 hover:underline",
@@ -56857,7 +56857,7 @@
                                       onClick: function () {
                                         b("pc", "true", 2592e3), w(!0);
                                       },
-                                      children: "Accept & Continue",
+                                      children: "Accept & Stack",
                                     }),
                                   }),
                                   Object(E.jsx)(Wh, { show: x, toggleShow: A }),
