@@ -53603,7 +53603,7 @@
                           Object(E.jsx)("div", {
                             className:
                               "text-xl sm:text-2xl text-textPrimary font-semibold",
-                            children: "xTAROT",
+                            children: "xSLMN",
                           }),
                           Object(E.jsx)("div", {
                             className: "!mb-8 text-lg text-textSecondary",
@@ -53613,7 +53613,7 @@
                             className:
                               "!mb-8 text-sm sm:text-base text-center font-semibold",
                             children:
-                              "The gateway for on-chain governance and fee distribution of the Tarot Protocol",
+                              "The gateway for on-chain governance and fee distribution of the Stacking Salmon Protocol",
                           }),
                           Object(E.jsx)("div", {
                             className: Object(I.a)(
@@ -53641,7 +53641,7 @@
                                     supplyVaultAddress: r,
                                   })
                                 : Object(E.jsx)("div", {
-                                    children: "Please connect to Fantom",
+                                    children: "Please connect to Berachain",
                                   }),
                           }),
                         ],
@@ -53665,7 +53665,7 @@
                       Object(E.jsx)("div", {
                         className:
                           "text-sm sm:text-base text-textSecondary text-center",
-                        children: "Stake xTAROT for additional rewards",
+                        children: "Stake xSLMN for additional rewards",
                       }),
                       Object(E.jsx)("div", {
                         className:
@@ -55190,7 +55190,7 @@
                     : r.isExact,
               },
               {
-                title: "xTAROT",
+                title: "xSLMN",
                 link: Is.STAKE,
                 enabled: !k || k === Ne.FANTOM,
                 matched:
@@ -55200,7 +55200,7 @@
                     : s.isExact,
               },
               {
-                title: "tinSPIRIT",
+                title: "tinBERA",
                 link: Is.TINSPIRIT,
                 enabled: !k || k === Ne.FANTOM,
                 matched:
