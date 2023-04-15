@@ -8,28 +8,28 @@ import {
   XIcon
 } from '@heroicons/react/outline';
 import { useWeb3React } from '@web3-react/core';
-import { ReactComponent as DiscordLogoIcon } from 'assets/images/icons/discord-logo.svg';
-import { ReactComponent as GitHubLogoIcon } from 'assets/images/icons/git-hub-logo.svg';
-import { ReactComponent as GitBookLogoIcon } from 'assets/images/icons/gitbook-logo.svg';
-import { ReactComponent as MediumLogoIcon } from 'assets/images/icons/medium-logo.svg';
+import { ReactComponent as DiscordLogoIcon } from '../../assets/images/icons/discord-logo.svg';
+import { ReactComponent as GitHubLogoIcon } from '../../assets/images/icons/git-hub-logo.svg';
+import { ReactComponent as GitBookLogoIcon } from '../../assets/images/icons/gitbook-logo.svg';
+import { ReactComponent as MediumLogoIcon } from '../../assets/images/icons/medium-logo.svg';
 // import { ReactComponent as OlympusLogoIcon } from 'assets/images/icons/olympus-logo.svg';
-import { ReactComponent as TarotLogoFace } from 'assets/images/icons/tarotlogoface.inline.svg';
+import { ReactComponent as TarotLogoFace } from '../../assets/images/icons/tarotlogoface.inline.svg';
 // import { CHAIN_IDS } from 'config/web3/chains';
-import { ReactComponent as TarotLogoRays } from 'assets/images/icons/tarotlogorays.inline.svg';
-import { ReactComponent as TwitterLogoIcon } from 'assets/images/icons/twitter-logo.svg';
+import { ReactComponent as TarotLogoRays } from '../../assets/images/icons/tarotlogorays.inline.svg';
+import { ReactComponent as TwitterLogoIcon } from '../../assets/images/icons/twitter-logo.svg';
 import clsx from 'clsx';
-import TarotImage from 'components/UI/TarotImage';
+import TarotImage from '../../components/UI/TarotImage';
 import {
   TAROT_DISCORD_LINK, TAROT_GITBOOK_LINK, TAROT_GIT_HUB_LINK, TAROT_MEDIUM_LINK, TAROT_TWITTER_LINK
-} from 'config/links';
-import { CHAIN_ICON_PATHS, CHAIN_IDS, CHAIN_LABELS } from 'config/web3/chains';
-import { DISTRIBUTOR_ADDRESSES } from 'config/web3/contracts/distributors';
+} from '../../config/links';
+import { CHAIN_ICON_PATHS, CHAIN_IDS, CHAIN_LABELS } from '../../config/web3/chains';
+import { DISTRIBUTOR_ADDRESSES } from '../../config/web3/contracts/distributors';
 // import { LIQUIDITY_GENERATOR_ADDRESSES } from 'config/web3/contracts/liquidity-generator';
 // import ClaimAirdropButton from 'containers/ClaimAirdropButton';
 // import WalletConnect from 'containers/WalletConnect';
 // import ChainConnect from 'containers/ChainConnect';
-import ConnectedWalletInfo from 'containers/ConnectedWalletInfo';
-import { useDefaultChainId } from 'hooks/useTarotRouter';
+import ConnectedWalletInfo from '../../containers/ConnectedWalletInfo';
+import { useDefaultChainId } from '../../hooks/useTarotRouter';
 import { useEffect, useRef, useState } from 'react';
 import {
   NavLink,
@@ -39,7 +39,7 @@ import { useScrolling, useWindowScroll } from 'react-use';
 import {
   PAGES,
   PARAMETERS
-} from 'utils/constants/links';
+} from '../../utils/constants/links';
 
 const social = [
   {
@@ -170,7 +170,7 @@ const AppBar = ({
       )?.isExact
     },
     {
-      title: 'xTAROT',
+      title: 'xSLMN',
       link: PAGES.STAKE,
       enabled: !chainId || chainId === CHAIN_IDS.FANTOM,
       matched: (
@@ -180,17 +180,17 @@ const AppBar = ({
         })
       )?.isExact
     },
-    {
-      title: 'tinSPIRIT',
-      link: PAGES.TINSPIRIT,
-      enabled: !chainId || chainId === CHAIN_IDS.FANTOM,
-      matched: (
-        useRouteMatch({
-          path: PAGES.TINSPIRIT,
-          strict: true
-        })
-      )?.isExact
-    }
+    // {
+    //   title: 'tinSPIRIT',
+    //   link: PAGES.TINSPIRIT,
+    //   enabled: !chainId || chainId === CHAIN_IDS.FANTOM,
+    //   matched: (
+    //     useRouteMatch({
+    //       path: PAGES.TINSPIRIT,
+    //       strict: true
+    //     })
+    //   )?.isExact
+    // }
     /*
     ,
     {

@@ -142,7 +142,7 @@ const StakeContent = (): JSX.Element | null => {
           <FontAwesomeIcon icon={faSun} />
         </div>
         <div className='mt-12 text-xl sm:text-2xl text-textPrimary font-semibold text-center'>xStaking</div>
-        <div className='text-sm sm:text-base text-textSecondary text-center'>Stake xTAROT for additional rewards</div>
+        <div className='text-sm sm:text-base text-textSecondary text-center'>Stake xSLMN for additional rewards</div>
         <div
           className='!mt-2 !mb-4 flex text-center justify-center items-center text-sm'>
           <div
