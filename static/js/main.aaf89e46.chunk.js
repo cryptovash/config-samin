@@ -149,12 +149,12 @@
     },
     311: function (e) {
       e.exports = JSON.parse(
-        '[{"anonymous":false,"inputs":[{"indexed":false,"internalType":"uint256","name":"previousBalance","type":"uint256"},{"indexed":false,"internalType":"uint256","name":"timeElapsed","type":"uint256"},{"indexed":false,"internalType":"uint256","name":"amount","type":"uint256"}],"name":"Claim","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"internalType":"uint256","name":"oldPeriodLength","type":"uint256"},{"indexed":false,"internalType":"uint256","name":"newPeriodLength","type":"uint256"}],"name":"NewPeriodLength","type":"event"},{"inputs":[],"name":"claim","outputs":[{"internalType":"uint256","name":"amount","type":"uint256"}],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"lastClaim","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"periodLength","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"uint256","name":"newPeriodLength","type":"uint256"}],"name":"setPeriodLength","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"tarot","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"xTAROT","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"}]'
+        '[{"anonymous":false,"inputs":[{"indexed":false,"internalType":"uint256","name":"previousBalance","type":"uint256"},{"indexed":false,"internalType":"uint256","name":"timeElapsed","type":"uint256"},{"indexed":false,"internalType":"uint256","name":"amount","type":"uint256"}],"name":"Claim","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"internalType":"uint256","name":"oldPeriodLength","type":"uint256"},{"indexed":false,"internalType":"uint256","name":"newPeriodLength","type":"uint256"}],"name":"NewPeriodLength","type":"event"},{"inputs":[],"name":"claim","outputs":[{"internalType":"uint256","name":"amount","type":"uint256"}],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"lastClaim","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"periodLength","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"uint256","name":"newPeriodLength","type":"uint256"}],"name":"setPeriodLength","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"tarot","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"xSLMN","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"}]'
       );
     },
     312: function (e) {
       e.exports = JSON.parse(
-        '[{"inputs":[{"internalType":"contract IERC20","name":"_xTAROT","type":"address"}],"stateMutability":"nonpayable","type":"constructor"},{"anonymous":false,"inputs":[{"indexed":false,"internalType":"address","name":"tokenRecovered","type":"address"},{"indexed":false,"internalType":"uint256","name":"amount","type":"uint256"}],"name":"AdminTokenRecovery","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"user","type":"address"},{"indexed":true,"internalType":"uint256","name":"pid","type":"uint256"},{"indexed":false,"internalType":"uint256","name":"amount","type":"uint256"}],"name":"Deposit","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"user","type":"address"},{"indexed":true,"internalType":"uint256","name":"pid","type":"uint256"},{"indexed":false,"internalType":"uint256","name":"amount","type":"uint256"}],"name":"EmergencyWithdraw","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"previousOwner","type":"address"},{"indexed":true,"internalType":"address","name":"newOwner","type":"address"}],"name":"OwnershipTransferred","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"internalType":"uint256","name":"_pid","type":"uint256"},{"indexed":false,"internalType":"uint256","name":"_rewardPerSecond","type":"uint256"}],"name":"SetRewardPerSecond","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"user","type":"address"},{"indexed":true,"internalType":"uint256","name":"pid","type":"uint256"},{"indexed":false,"internalType":"uint256","name":"amount","type":"uint256"}],"name":"Withdraw","type":"event"},{"inputs":[{"internalType":"uint256","name":"_rewardPerSecond","type":"uint256"},{"internalType":"contract IERC20Ext","name":"_Token","type":"address"},{"internalType":"uint256","name":"_startTime","type":"uint256"},{"internalType":"uint256","name":"_endTime","type":"uint256"},{"internalType":"address","name":"_protocolOwner","type":"address"}],"name":"add","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"baseUserLimit","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"baseUserLimitTime","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"uint256","name":"_time","type":"uint256"}],"name":"changeBaseUserLimitTime","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"uint256","name":"_pid","type":"uint256"},{"internalType":"uint32","name":"addSeconds","type":"uint32"}],"name":"changeEndTime","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"uint256","name":"_pid","type":"uint256"},{"internalType":"uint256","name":"_time","type":"uint256"}],"name":"changePoolUserLimitEndTime","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"uint256","name":"_limit","type":"uint256"}],"name":"changeUserLimit","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"uint256","name":"_pid","type":"uint256"},{"internalType":"uint256","name":"_amount","type":"uint256"}],"name":"deposit","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"uint256","name":"_pid","type":"uint256"},{"internalType":"uint256","name":"_amount","type":"uint256"}],"name":"emergencyRewardWithdraw","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"uint256","name":"_pid","type":"uint256"}],"name":"emergencyWithdraw","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"massUpdatePools","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"owner","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"uint256","name":"_pid","type":"uint256"},{"internalType":"address","name":"_user","type":"address"}],"name":"pendingReward","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"uint256","name":"","type":"uint256"}],"name":"poolInfo","outputs":[{"internalType":"contract IERC20","name":"RewardToken","type":"address"},{"internalType":"uint256","name":"RewardPerSecond","type":"uint256"},{"internalType":"uint256","name":"TokenPrecision","type":"uint256"},{"internalType":"uint256","name":"xTAROTStakedAmount","type":"uint256"},{"internalType":"uint256","name":"lastRewardTime","type":"uint256"},{"internalType":"uint256","name":"accRewardPerShare","type":"uint256"},{"internalType":"uint256","name":"endTime","type":"uint256"},{"internalType":"uint256","name":"startTime","type":"uint256"},{"internalType":"uint256","name":"userLimitEndTime","type":"uint256"},{"internalType":"address","name":"protocolOwnerAddress","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"poolLength","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"_tokenAddress","type":"address"}],"name":"recoverWrongTokens","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"renounceOwnership","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"uint256","name":"_pid","type":"uint256"},{"internalType":"uint256","name":"_rewardPerSecond","type":"uint256"}],"name":"setRewardPerSecond","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"uint256","name":"_pid","type":"uint256"}],"name":"stopReward","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"newOwner","type":"address"}],"name":"transferOwnership","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"uint256","name":"","type":"uint256"},{"internalType":"address","name":"","type":"address"}],"name":"userInfo","outputs":[{"internalType":"uint256","name":"amount","type":"uint256"},{"internalType":"uint256","name":"rewardDebt","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"uint256","name":"_pid","type":"uint256"},{"internalType":"uint256","name":"_amount","type":"uint256"}],"name":"withdraw","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"xTAROT","outputs":[{"internalType":"contract IERC20","name":"","type":"address"}],"stateMutability":"view","type":"function"}]'
+        '[{"inputs":[{"internalType":"contract IERC20","name":"_xSLMN","type":"address"}],"stateMutability":"nonpayable","type":"constructor"},{"anonymous":false,"inputs":[{"indexed":false,"internalType":"address","name":"tokenRecovered","type":"address"},{"indexed":false,"internalType":"uint256","name":"amount","type":"uint256"}],"name":"AdminTokenRecovery","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"user","type":"address"},{"indexed":true,"internalType":"uint256","name":"pid","type":"uint256"},{"indexed":false,"internalType":"uint256","name":"amount","type":"uint256"}],"name":"Deposit","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"user","type":"address"},{"indexed":true,"internalType":"uint256","name":"pid","type":"uint256"},{"indexed":false,"internalType":"uint256","name":"amount","type":"uint256"}],"name":"EmergencyWithdraw","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"previousOwner","type":"address"},{"indexed":true,"internalType":"address","name":"newOwner","type":"address"}],"name":"OwnershipTransferred","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"internalType":"uint256","name":"_pid","type":"uint256"},{"indexed":false,"internalType":"uint256","name":"_rewardPerSecond","type":"uint256"}],"name":"SetRewardPerSecond","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"user","type":"address"},{"indexed":true,"internalType":"uint256","name":"pid","type":"uint256"},{"indexed":false,"internalType":"uint256","name":"amount","type":"uint256"}],"name":"Withdraw","type":"event"},{"inputs":[{"internalType":"uint256","name":"_rewardPerSecond","type":"uint256"},{"internalType":"contract IERC20Ext","name":"_Token","type":"address"},{"internalType":"uint256","name":"_startTime","type":"uint256"},{"internalType":"uint256","name":"_endTime","type":"uint256"},{"internalType":"address","name":"_protocolOwner","type":"address"}],"name":"add","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"baseUserLimit","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"baseUserLimitTime","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"uint256","name":"_time","type":"uint256"}],"name":"changeBaseUserLimitTime","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"uint256","name":"_pid","type":"uint256"},{"internalType":"uint32","name":"addSeconds","type":"uint32"}],"name":"changeEndTime","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"uint256","name":"_pid","type":"uint256"},{"internalType":"uint256","name":"_time","type":"uint256"}],"name":"changePoolUserLimitEndTime","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"uint256","name":"_limit","type":"uint256"}],"name":"changeUserLimit","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"uint256","name":"_pid","type":"uint256"},{"internalType":"uint256","name":"_amount","type":"uint256"}],"name":"deposit","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"uint256","name":"_pid","type":"uint256"},{"internalType":"uint256","name":"_amount","type":"uint256"}],"name":"emergencyRewardWithdraw","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"uint256","name":"_pid","type":"uint256"}],"name":"emergencyWithdraw","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"massUpdatePools","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"owner","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"uint256","name":"_pid","type":"uint256"},{"internalType":"address","name":"_user","type":"address"}],"name":"pendingReward","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"uint256","name":"","type":"uint256"}],"name":"poolInfo","outputs":[{"internalType":"contract IERC20","name":"RewardToken","type":"address"},{"internalType":"uint256","name":"RewardPerSecond","type":"uint256"},{"internalType":"uint256","name":"TokenPrecision","type":"uint256"},{"internalType":"uint256","name":"xSLMNStakedAmount","type":"uint256"},{"internalType":"uint256","name":"lastRewardTime","type":"uint256"},{"internalType":"uint256","name":"accRewardPerShare","type":"uint256"},{"internalType":"uint256","name":"endTime","type":"uint256"},{"internalType":"uint256","name":"startTime","type":"uint256"},{"internalType":"uint256","name":"userLimitEndTime","type":"uint256"},{"internalType":"address","name":"protocolOwnerAddress","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"poolLength","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"_tokenAddress","type":"address"}],"name":"recoverWrongTokens","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"renounceOwnership","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"uint256","name":"_pid","type":"uint256"},{"internalType":"uint256","name":"_rewardPerSecond","type":"uint256"}],"name":"setRewardPerSecond","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"uint256","name":"_pid","type":"uint256"}],"name":"stopReward","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"newOwner","type":"address"}],"name":"transferOwnership","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"uint256","name":"","type":"uint256"},{"internalType":"address","name":"","type":"address"}],"name":"userInfo","outputs":[{"internalType":"uint256","name":"amount","type":"uint256"},{"internalType":"uint256","name":"rewardDebt","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"uint256","name":"_pid","type":"uint256"},{"internalType":"uint256","name":"_amount","type":"uint256"}],"name":"withdraw","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"xSLMN","outputs":[{"internalType":"contract IERC20","name":"","type":"address"}],"stateMutability":"view","type":"function"}]'
       );
     },
     313: function (e) {
@@ -2871,7 +2871,7 @@
             dex: Oe.SPIRIT,
             pid: 40,
             symbol0: "WFTM",
-            symbol1: "TAROT",
+            symbol1: "SLMN",
             shares0: "0",
             shares1: "0",
             reserveFactor0: "100000000000000000",
@@ -2902,7 +2902,7 @@
             dex: Oe.SPOOKY,
             pid: 27,
             symbol0: "WFTM",
-            symbol1: "TAROT",
+            symbol1: "SLMN",
             shares0: "0",
             shares1: "0",
             reserveFactor0: "100000000000000000",
@@ -4111,7 +4111,7 @@
             pid: 26,
             gaugeAddress: "0xf7d3de134c9d09998f94a3de5e0d7f3317dd97be",
             symbol0: "WFTM",
-            symbol1: "TAROT",
+            symbol1: "SLMN",
             shares0: "0",
             shares1: "0",
             reserveFactor0: "100000000000000000",
@@ -6022,7 +6022,7 @@
             dex: Oe.SPOOKY,
             pid: 78,
             symbol0: "USDC",
-            symbol1: "TAROT",
+            symbol1: "SLMN",
             shares0: "0",
             shares1: "0",
             reserveFactor0: "100000000000000000",
@@ -7429,7 +7429,7 @@
             vaultType: Xe.SPOOKY_V2,
             pid: 22,
             symbol0: "WFTM",
-            symbol1: "TAROT",
+            symbol1: "SLMN",
             shares0: "0",
             shares1: "0",
             reserveFactor0: "100000000000000000",
@@ -7909,7 +7909,7 @@
             vaultType: Xe.SPOOKY_V2,
             pid: 42,
             symbol0: "USDC",
-            symbol1: "TAROT",
+            symbol1: "SLMN",
             shares0: "0",
             shares1: "0",
             reserveFactor0: "100000000000000000",
@@ -8102,7 +8102,7 @@
             pid: void 0,
             gaugeAddress: "0x04f12d5eb29edc7241de831e582c3b7814844fcb",
             symbol0: "WFTM",
-            symbol1: "TAROT",
+            symbol1: "SLMN",
             shares0: "0",
             shares1: "0",
             reserveFactor0: "100000000000000000",
@@ -8167,8 +8167,8 @@
             vaultType: Xe.SOLIDEX,
             pid: void 0,
             gaugeAddress: "0xa0813bccc899589b4e7d9ac42193136d0313f4eb",
-            symbol0: "xTAROT",
-            symbol1: "TAROT",
+            symbol0: "xSLMN",
+            symbol1: "SLMN",
             shares0: "0",
             shares1: "0",
             reserveFactor0: "100000000000000000",
@@ -8541,7 +8541,7 @@
             oxUserProxyAddress: "0x25eaa5f2b6ce371fc50f03f0a0b3cf55b3e33883",
             oxStakingAddress: "0x7b44fec85895b138255e7490c62c323e458386fb",
             symbol0: "WFTM",
-            symbol1: "TAROT",
+            symbol1: "SLMN",
             shares0: "0",
             shares1: "0",
             reserveFactor0: "100000000000000000",
@@ -8575,8 +8575,8 @@
             gaugeAddress: "0xa0813bccc899589b4e7d9ac42193136d0313f4eb",
             oxUserProxyAddress: "0xaf73d1afb44ea75db5124748d17a41deb1523c4d",
             oxStakingAddress: "0xe28ad06576546c1d5953ab2871f22cc6c13285fb",
-            symbol0: "xTAROT",
-            symbol1: "TAROT",
+            symbol0: "xSLMN",
+            symbol1: "SLMN",
             shares0: "0",
             shares1: "0",
             reserveFactor0: "100000000000000000",
@@ -10404,7 +10404,7 @@
             pid: void 0,
             gaugeAddress: "0xbbb4259c3344109ba2f6e8b773ce7e65d5eaf4d0",
             symbol0: "WFTM",
-            symbol1: "TAROT",
+            symbol1: "SLMN",
             shares0: "0",
             shares1: "0",
             reserveFactor0: "100000000000000000",
@@ -10831,7 +10831,7 @@
             pid: void 0,
             gaugeAddress: "0x693b0515091c30564725753c832a05ed22edf1bd",
             symbol0: "WFTM",
-            symbol1: "TAROT",
+            symbol1: "SLMN",
             shares0: "0",
             shares1: "0",
             reserveFactor0: "100000000000000000",
@@ -11001,7 +11001,7 @@
             pid: void 0,
             gaugeAddress: "0xe331d5c5e09450f1e8e6e738b4763ee3dc12def8",
             symbol0: "WFTM",
-            symbol1: "TAROT",
+            symbol1: "SLMN",
             shares0: "0",
             shares1: "0",
             reserveFactor0: "100000000000000000",
@@ -12476,7 +12476,7 @@
             vaultType: Xe.VELODROME,
             pid: void 0,
             gaugeAddress: "0x99f5d706218a95b4d20d222e8b184b30084fdcfb",
-            symbol0: "TAROT",
+            symbol0: "SLMN",
             symbol1: "USDC",
             shares0: "0",
             shares1: "0",
@@ -13632,7 +13632,7 @@
             vaultType: Xe.RAMSES,
             pid: void 0,
             gaugeAddress: "0x2acc06e6e7ce869ee558b3ef7a59072401543d50",
-            symbol0: "TAROT",
+            symbol0: "SLMN",
             symbol1: "WETH",
             shares0: "0",
             shares1: "0",
@@ -14029,7 +14029,7 @@
             vaultType: Xe.STERLING,
             pid: void 0,
             gaugeAddress: "0xa3cb464b21da68dfcbfca80386792444083b6074",
-            symbol0: "TAROT",
+            symbol0: "SLMN",
             symbol1: "WETH",
             shares0: "0",
             shares1: "0",
@@ -15356,7 +15356,7 @@
             pid: void 0,
             gaugeAddress: "0xda6fc5422475c424928f3a21e9b8d9f80b1db190",
             symbol0: "USDT",
-            symbol1: "TAROT",
+            symbol1: "SLMN",
             shares0: "0",
             shares1: "0",
             reserveFactor0: "100000000000000000",
@@ -15390,7 +15390,7 @@
             vaultType: Xe.THENA,
             pid: void 0,
             gaugeAddress: "0xf49bff8fb6a0ad43475d28be955e62c10c50a998",
-            symbol0: "TAROT",
+            symbol0: "SLMN",
             symbol1: "WBNB",
             shares0: "0",
             shares1: "0",
@@ -15828,7 +15828,7 @@
             vaultType: Xe.THENA,
             pid: void 0,
             gaugeAddress: "0xbcb7da4a4544cb748d7c85dc857408a35ac1c1aa",
-            symbol0: "TAROT",
+            symbol0: "SLMN",
             symbol1: "BUSD",
             shares0: "0",
             shares1: "0",
@@ -16193,7 +16193,7 @@
             vaultType: Xe.MONOLITH,
             pid: void 0,
             gaugeAddress: "0xdcc1a6b6ae3aafe2a0fa7fd8a2a181671433332a",
-            symbol0: "TAROT",
+            symbol0: "SLMN",
             symbol1: "WETH",
             shares0: "0",
             shares1: "0",
@@ -16301,7 +16301,7 @@
             vaultType: Xe.EQUILIBRE,
             pid: void 0,
             gaugeAddress: "0xbf257c745a8ada0bd8f682812f5fd95fa42bdf66",
-            symbol0: "TAROT",
+            symbol0: "SLMN",
             symbol1: "USDC",
             shares0: "0",
             shares1: "0",
@@ -16698,7 +16698,7 @@
             vaultType: Xe.VELOCIMETER,
             pid: void 0,
             gaugeAddress: "0x08df266da776538a8fab368116320f3cf7edc6a7",
-            symbol0: "TAROT",
+            symbol0: "SLMN",
             symbol1: "USDC",
             shares0: "0",
             shares1: "0",
@@ -17411,7 +17411,7 @@
             pid: void 0,
             gaugeAddress: "0x2bca533cfa803eca9e18b2b49c1be4e386f1d47f",
             symbol0: "CASH",
-            symbol1: "TAROT",
+            symbol1: "SLMN",
             shares0: "0",
             shares1: "0",
             reserveFactor0: "100000000000000000",
@@ -21202,10 +21202,10 @@
           Object(De.a)(Ls, Ne.POLYGON, {}),
           Object(De.a)(Ls, Ne.FANTOM, {
             "0x74d1d2a851e339b8cb953716445be7e8abdf92f4": {
-              symbol: "xTAROT",
+              symbol: "xSLMN",
               decimals: ue.a.from(18),
               underlyingAddress: "0xc5e2b037d30a390e62180970b3aa4e91868764cd",
-              underlyingSymbol: "TAROT",
+              underlyingSymbol: "SLMN",
               underlyingDecimals: ue.a.from(18),
               borrowableAddresses: [
                 "0x1F8b52Ed3cd22F5E4275Aaf68301566Bb6739F22",
@@ -31829,7 +31829,7 @@
                         (f = e.sent),
                         (p = {
                           stakedBalance: {
-                            amount: f.xTAROTStakedAmount,
+                            amount: f.xSLMNStakedAmount,
                             decimals: ue.a.from(18),
                           },
                           rewardTokensPerSecond: {
@@ -32457,9 +32457,9 @@
             gauge: "0xa0813bccc899589b4e7d9ac42193136d0313f4eb",
             decimals0: 18,
             decimals1: 18,
-            symbol: "vAMM-xTAROT/TAROT",
-            symbol0: "xTAROT",
-            symbol1: "TAROT",
+            symbol: "vAMM-xSLMN/SLMN",
+            symbol0: "xSLMN",
+            symbol1: "SLMN",
             token0: "0x74d1d2a851e339b8cb953716445be7e8abdf92f4",
             token1: "0xc5e2b037d30a390e62180970b3aa4e91868764cd",
           },
@@ -32468,9 +32468,9 @@
             gauge: "0x04f12d5eb29edc7241de831e582c3b7814844fcb",
             decimals0: 18,
             decimals1: 18,
-            symbol: "vAMM-WFTM/TAROT",
+            symbol: "vAMM-WFTM/SLMN",
             symbol0: "WFTM",
-            symbol1: "TAROT",
+            symbol1: "SLMN",
             token0: "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
             token1: "0xc5e2b037d30a390e62180970b3aa4e91868764cd",
           },
@@ -39136,7 +39136,7 @@
                             (e.prev = 3),
                             (e.next = 6),
                             r.approveXStake(function (e) {
-                              s({ hash: e }, { summary: "Approve xTAROT" });
+                              s({ hash: e }, { summary: "Approve xSLMN" });
                             })
                           );
                         case 6:
@@ -39679,11 +39679,11 @@
             children: [
               Object(E.jsx)(py, {
                 className: "text-sm xs:text-base w-full",
-                name: "bTAROT -> ".concat(a.supplyVaultInfo.symbol),
+                name: "bSLMN -> ".concat(a.supplyVaultInfo.symbol),
                 nameElement: Object(E.jsxs)(E.Fragment, {
                   children: [
                     Object(E.jsx)(Ip.a, { icon: Mp.b }),
-                    " bTAROT ",
+                    " bSLMN ",
                     Object(E.jsx)(Ip.a, { icon: Mp.m }),
                     " ",
                     a.supplyVaultInfo.symbol,
@@ -39706,7 +39706,7 @@
                         children: [
                           Object(E.jsx)("div", {
                             className: "flex-grow",
-                            children: "bTAROT APR:",
+                            children: "bSLMN APR:",
                           }),
                           Object(E.jsxs)("div", {
                             className: "flex-grow",
@@ -39731,7 +39731,7 @@
                   }),
                 }),
                 show: i,
-                toStakeSymbol: "bTAROT",
+                toStakeSymbol: "bSLMN",
                 toStakeAddress: r,
                 supplyVaultAddress: a.supplyVaultAddress,
                 toggleShow: c,
@@ -40235,9 +40235,9 @@
                             ),
                             placeholder: "./assets/images/default.png",
                             error: "./assets/images/default.png",
-                            alt: "TAROT",
+                            alt: "SLMN",
                           }),
-                          Object(E.jsx)("span", { children: "TAROT" }),
+                          Object(E.jsx)("span", { children: "SLMN" }),
                         ],
                       }),
                       Object(E.jsx)("dd", {
@@ -41091,7 +41091,7 @@
                         className:
                           "text-base sm:text-lg text-textPrimary flex items-start",
                         children: z
-                          ? "xTAROT"
+                          ? "xSLMN"
                           : q
                           ? "xtinSPIRIT"
                           : "".concat(p.underlyingSymbol, " Supply Vault"),
@@ -41489,7 +41489,7 @@
                     supplyVaultAddress: a,
                     toggleShow: w,
                     title: z
-                      ? "Stake in xTAROT"
+                      ? "Stake in xSLMN"
                       : q
                       ? "Stake in xtinSPIRIT"
                       : "Stake in ".concat(p.underlyingSymbol, " Supply Vault"),
@@ -41757,7 +41757,7 @@
               b = Object(l.a)(o, 2),
               u = b[0],
               f = b[1],
-              p = "Stake ".concat(Object(Rr.formatUnits)(t, r), " xTAROT"),
+              p = "Stake ".concat(Object(Rr.formatUnits)(t, r), " xSLMN"),
               y = Object(n.useMemo)(
                 function () {
                   return s || e !== uy.Done
@@ -41847,8 +41847,8 @@
               Object(E.jsx)(gy, {
                 val: p,
                 setVal: y,
-                suffix: "xTAROT",
-                availableSuffix: "xTAROT\xa0",
+                suffix: "xSLMN",
+                availableSuffix: "xSLMN\xa0",
                 availableTitle: "Available",
                 available: A,
                 max: v,
@@ -41898,7 +41898,7 @@
               o = Object(l.a)(c, 2),
               b = o[0],
               u = o[1],
-              f = "Unstake ".concat(Object(Rr.formatUnits)(a, t), " xTAROT"),
+              f = "Unstake ".concat(Object(Rr.formatUnits)(a, t), " xSLMN"),
               p = Object(n.useMemo)(
                 function () {
                   return r ? uy.Disabled : b ? uy.Pending : uy.Ready;
@@ -41979,8 +41979,8 @@
               Object(E.jsx)(gy, {
                 val: c,
                 setVal: b,
-                suffix: "xTAROT",
-                availableSuffix: "xTAROT\xa0",
+                suffix: "xSLMN",
+                availableSuffix: "xSLMN\xa0",
                 availableTitle: "Available",
                 available: p,
                 max: p,
@@ -42243,7 +42243,7 @@
                     }),
                     Object(E.jsxs)("div", {
                       className: "text-center text-lg text-textPrimary",
-                      children: ["Stake xTAROT, Earn ", y.rewardTokenSymbol],
+                      children: ["Stake xSLMN, Earn ", y.rewardTokenSymbol],
                     }),
                     Object(E.jsxs)("div", {
                       className: "flex flex-col items-center",
@@ -42254,7 +42254,7 @@
                             children: [
                               "Rewards Start In",
                               Object(E.jsx)(_f, {
-                                text: "Along with the xTAROT APR, Staked xTAROT in this pool will earn additional rewards when ".concat(
+                                text: "Along with the xSLMN APR, Staked xSLMN in this pool will earn additional rewards when ".concat(
                                   y.rewardTokenSymbol,
                                   " emissions begin."
                                 ),
@@ -42268,9 +42268,9 @@
                             children: [
                               "Time Remaining",
                               Object(E.jsx)(_f, {
-                                text: "Staked xTAROT in this pool earns ".concat(
+                                text: "Staked xSLMN in this pool earns ".concat(
                                   y.rewardTokenSymbol,
-                                  " rewards in addition to the xTAROT APR."
+                                  " rewards in addition to the xSLMN APR."
                                 ),
                               }),
                             ],
@@ -42284,7 +42284,7 @@
                               Object(E.jsx)(_f, {
                                 text: "".concat(
                                   y.rewardTokenSymbol,
-                                  " rewards for this pool are not currently being emitted. Staked xTAROT will continue to earn the xTAROT APR."
+                                  " rewards for this pool are not currently being emitted. Staked xSLMN will continue to earn the xSLMN APR."
                                 ),
                               }),
                             ],
@@ -42381,7 +42381,7 @@
                                       children: [
                                         Object(E.jsx)("div", {
                                           className: "text-textSecondary",
-                                          children: "xTAROT APR:",
+                                          children: "xSLMN APR:",
                                         }),
                                         Object(E.jsx)("div", {
                                           children: yo(N),
@@ -42439,7 +42439,7 @@
                           children: [
                             Object(E.jsx)("div", {
                               className: "text-base sm:text-lg text-center",
-                              children: "Staked xTAROT",
+                              children: "Staked xSLMN",
                             }),
                             Object(E.jsxs)("div", {
                               className:
@@ -42648,7 +42648,7 @@
                                                   Object(E.jsx)("div", {
                                                     className:
                                                       "text-textSecondary",
-                                                    children: "xTAROT APR:",
+                                                    children: "xSLMN APR:",
                                                   }),
                                                   Object(E.jsx)("div", {
                                                     children: yo(N),
@@ -43037,7 +43037,7 @@
                 s = Object(l.a)(r, 2),
                 d = s[0],
                 i = s[1],
-                c = "Claim all TAROT rewards",
+                c = "Claim all SLMN rewards",
                 o = Object(n.useMemo)(
                   function () {
                     return d ? uy.Pending : uy.Ready;
@@ -43299,11 +43299,11 @@
                                   ),
                                   placeholder: "./assets/images/default.png",
                                   error: "./assets/images/default.png",
-                                  alt: "TAROT",
+                                  alt: "SLMN",
                                 }),
                                 Object(E.jsx)("div", {
                                   className: "text-lg",
-                                  title: "".concat(fo(j), " TAROT"),
+                                  title: "".concat(fo(j), " SLMN"),
                                   children: xo(j),
                                 }),
                               ],
@@ -44907,7 +44907,7 @@
               d = Object(l.a)(s, 2),
               i = d[0],
               c = d[1],
-              o = "Claim TAROT from ".concat(e.name),
+              o = "Claim SLMN from ".concat(e.name),
               b = Object(n.useMemo)(
                 function () {
                   return i ? uy.Pending : uy.Ready;
@@ -45057,7 +45057,7 @@
                         }),
                       ],
                     }),
-                    Object(E.jsxs)("span", { children: [xo(i), " TAROT"] }),
+                    Object(E.jsxs)("span", { children: [xo(i), " SLMN"] }),
                     "Global Incentives" === a.config.name
                       ? Object(E.jsx)(E.Fragment, {})
                       : Object(E.jsxs)(E.Fragment, {
@@ -45074,7 +45074,7 @@
                             Object(E.jsx)(E.Fragment, {
                               children: Object(E.jsxs)(
                                 "span",
-                                { children: [xo(d), " TAROT"] },
+                                { children: [xo(d), " SLMN"] },
                                 ""
                                   .concat(a.config.claimableAddress, "-")
                                   .concat(d)
@@ -45094,7 +45094,7 @@
                     Object(E.jsx)(E.Fragment, {
                       children: Object(E.jsxs)(
                         "span",
-                        { children: [xo(s), " TAROT"] },
+                        { children: [xo(s), " SLMN"] },
                         "".concat(a.config.claimableAddress, "-").concat(s)
                       ),
                     }),
@@ -45108,7 +45108,7 @@
                 className: "col-span-4",
                 children: Object(E.jsx)(py, {
                   className: "w-full",
-                  name: "Claim TAROT",
+                  name: "Claim SLMN",
                   onCall: f,
                   state: b,
                 }),
@@ -45226,7 +45226,7 @@
                 children: Object(E.jsx)("div", {
                   className: "info",
                   children:
-                    "You do not have any pending TAROT distribution claims.",
+                    "You do not have any pending SLMN distribution claims.",
                 }),
               })
             : t && r.length > 0
@@ -45237,7 +45237,7 @@
                     className: "mb-12",
                     children: Object(E.jsx)("span", {
                       className: "text-xl text-textSecondary",
-                      children: "Pending TAROT claims are shown below.",
+                      children: "Pending SLMN claims are shown below.",
                     }),
                   }),
                   Object(E.jsx)("h2", {
@@ -45872,7 +45872,7 @@
             ].includes(t.id),
             G = "Estimated current "
               .concat(w, "x leverage APR")
-              .concat(M ? " (including TAROT farming rewards)" : "");
+              .concat(M ? " (including SLMN farming rewards)" : "");
           return (
             (F > 0 || (R && D > 0)) &&
               ((G += " based on "),
@@ -45956,9 +45956,9 @@
                                   a
                                     ? a.vaultFarmLabel
                                     : "on ".concat(t.dexName),
-                                  ". Leveraging or borrowing in this pool earns TAROT rewards."
+                                  ". Leveraging or borrowing in this pool earns SLMN rewards."
                                 )
-                              : "Leveraging or borrowing in this pool earns TAROT rewards.",
+                              : "Leveraging or borrowing in this pool earns SLMN rewards.",
                           children: Object(E.jsx)(Wm.a, {
                             onMouseEnter: function () {
                               q(!0);
@@ -47034,7 +47034,7 @@
                               ),
                               placeholder: "./assets/images/default.png",
                               error: "./assets/images/default.png",
-                              alt: "TAROT",
+                              alt: "SLMN",
                             }),
                             Object(E.jsx)(Y, {
                               width: 64,
@@ -47049,7 +47049,7 @@
                               ),
                               placeholder: "./assets/images/default.png",
                               error: "./assets/images/default.png",
-                              alt: "TAROT",
+                              alt: "SLMN",
                             }),
                           ],
                         }),
@@ -51059,7 +51059,7 @@
               i = Object(l.a)(d, 2),
               c = i[0],
               o = i[1],
-              b = "Enabled TAROT reward for ".concat(a),
+              b = "Enabled SLMN reward for ".concat(a),
               u = Object(n.useMemo)(
                 function () {
                   return c ? uy.Pending : uy.Ready;
@@ -51120,7 +51120,7 @@
               i = Object(l.a)(d, 2),
               c = i[0],
               o = i[1],
-              b = "Claim TAROT reward for ".concat(a),
+              b = "Claim SLMN reward for ".concat(a),
               u = Object(n.useMemo)(
                 function () {
                   return c ? uy.Pending : uy.Ready;
@@ -51203,7 +51203,7 @@
                         "text-center"
                       ),
                       children: Object(E.jsx)(py, {
-                        name: "Claim " + fo(d) + " TAROT",
+                        name: "Claim " + fo(d) + " SLMN",
                         onCall: x,
                         state: m,
                       }),
@@ -51222,7 +51222,7 @@
                                 href: c(e.transactionHash),
                                 target: "_blank",
                                 rel: "noopener noreferrer",
-                                children: ["Claimed ", xo(e.amount), " TAROT"],
+                                children: ["Claimed ", xo(e.amount), " SLMN"],
                               }),
                             },
                             a
@@ -51249,7 +51249,7 @@
                   "border-tarotJade-300",
                   "bg-tarotJade-700"
                 ),
-                children: "This pool does not currently receive TAROT rewards.",
+                children: "This pool does not currently receive SLMN rewards.",
               }),
             })
           : a + t <= 0
@@ -51271,7 +51271,7 @@
                 children: [
                   "Leverage ",
                   e,
-                  " or borrow to start farming TAROT.",
+                  " or borrow to start farming SLMN.",
                 ],
               }),
             })
@@ -51305,7 +51305,7 @@
                       children: [
                         "Activate farming for ",
                         e,
-                        " to receive TAROT rewards.",
+                        " to receive SLMN rewards.",
                       ],
                     }),
                     Object(E.jsx)(py, {
@@ -52334,7 +52334,7 @@
                             Object(E.jsx)(_f, {
                               text: "Deposits during the first 24 hours will receive an additional claim of the ".concat(
                                 xo(f),
-                                "\xa0TAROT bonus distribution."
+                                "\xa0SLMN bonus distribution."
                               ),
                             }),
                           ],
@@ -52404,7 +52404,7 @@
                                 "Deposit FTM to receive a claim of the initial ",
                                 xo(u),
                                 "\xa0",
-                                "TAROT",
+                                "SLMN",
                                 "\xa0",
                                 "distribution.",
                               ],
@@ -52421,7 +52421,7 @@
                               "The entire balance of deposited FTM, along with ",
                               xo(p),
                               "\xa0",
-                              "TAROT, will be added to Spooky and Spirit as locked liquidity for the FTM\u2011TAROT pair.",
+                              "SLMN, will be added to Spooky and Spirit as locked liquidity for the FTM\u2011SLMN pair.",
                             ],
                           }),
                           Object(E.jsx)("div", {
@@ -52526,7 +52526,7 @@
                                       Ao(1724999.9999999998),
                                       Object(E.jsxs)("span", {
                                         className: "text-sm",
-                                        children: ["\xa0", "TAROT"],
+                                        children: ["\xa0", "SLMN"],
                                       }),
                                     ],
                                   }),
@@ -52641,7 +52641,7 @@
                                       Ao(775e3),
                                       Object(E.jsxs)("span", {
                                         className: "text-sm",
-                                        children: ["\xa0", "TAROT"],
+                                        children: ["\xa0", "SLMN"],
                                       }),
                                     ],
                                   }),
@@ -52695,7 +52695,7 @@
                                       }),
                                       Object(E.jsx)("span", {
                                         className: "self-end text-lg",
-                                        children: "TAROT",
+                                        children: "SLMN",
                                       }),
                                     ],
                                   }),
@@ -52704,7 +52704,7 @@
                                     children: [
                                       "Estimated Price",
                                       Object(E.jsx)(_f, {
-                                        text: "Estimated initial price of TAROT after liquidity generation",
+                                        text: "Estimated initial price of SLMN after liquidity generation",
                                       }),
                                     ],
                                   }),
@@ -52752,7 +52752,7 @@
                               Object(E.jsxs)("div", {
                                 className: "text-textSecondary text-sm !mt-3",
                                 children: [
-                                  "Estimated TAROT Claim",
+                                  "Estimated SLMN Claim",
                                   Object(E.jsx)(_f, {
                                     text: "Estimated claim including bonus, if applicable",
                                   }),
@@ -52761,7 +52761,7 @@
                               Object(E.jsx)(oA, {
                                 val: c,
                                 setVal: b,
-                                suffix: "TAROT",
+                                suffix: "SLMN",
                               }),
                               Object(E.jsxs)("div", {
                                 className:
@@ -52778,7 +52778,7 @@
                                   Object(E.jsx)("div", {
                                     className: "text-sm text-textSecondary",
                                     children:
-                                      "The final TAROT amount will be determined at the end of the liquidity generation event.",
+                                      "The final SLMN amount will be determined at the end of the liquidity generation event.",
                                   }),
                                 ],
                               }),
@@ -52893,7 +52893,7 @@
                                           ),
                                           Object(E.jsxs)("span", {
                                             className: "text-lg",
-                                            children: ["\xa0", "TAROT"],
+                                            children: ["\xa0", "SLMN"],
                                           }),
                                         ],
                                       }),
